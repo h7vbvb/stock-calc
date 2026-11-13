@@ -86,7 +86,7 @@ function updateUI() {
     $(id).style.opacity = disabled ? "0.4" : "1";
   });
 
-  const base = "股票计算器--K线里有乾坤";
+  const base = "股票计算器--红黑观察员";
   const suffix = state.registered
     ? ` [已注册: ${state.useCount}/${REG_LIMIT}]`
     : ` [试用: ${state.useCount}/${TRIAL_LIMIT}]`;
